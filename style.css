@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    font-family: sans-serif;
+}
+.header1{
+    background:linear-gradient(#00000096), url("./uae-4-2048x1367\ 2.png");
+    width: 100%;
+    height: 900px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.m1{
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    color: white;
+    font-size: 18px;
+    padding: 30px 10px;
+}
+.m11{
+    gap: 40px;
+    display: flex;
+}
+.btn1{
+    padding: 15px 40px;
+    font-size: 18px;
+    background: #07AF91;
+    border: none;
+    border-radius: 10px;
+    color: wheat;
+}
+.img1{
+    display: none;
+}
+
+
+.pp1{
+    max-width: 1200px;
+    margin:auto;
+    color: white;
+    margin-top: 200px;
+}
+.q1{
+    font-size: 47px;
+    font-weight: 700;
+    line-height: 60px;
+    margin-bottom: 20px; 
+}
+.btn2{
+    padding: 25px 40px;
+    font-size: 18px;
+    color: white;
+    background: linear-gradient(276.41deg, #016CA8 -7%, #61B5E4 77.16%);
+    border: none;
+    border-radius: 10px;
+}
+.q3{
+    display: none;
+}
+.q4{
+    display: none;
+}
+@media(max-width:600px){
+    .pp1{
+        margin-top: 60px;
+        text-align: center;
+    }
+    .q1{
+        display: none;
+    }
+    .q4{
+        display: block;
+        font-size: 36px;
+        margin-bottom: 30px;
+        line-height: 60px;
+    }
+    .q5{
+        font-size: 36px;
+    }
+    .q3{
+        display: block;
+        font-size: 18px;
+        line-height: 35px;
+        margin-bottom: 40px;
+    }
+    .q2{
+        display: none;
+    }
+    .m11{
+        display: none;
+    }
+    .img1{
+        display: block;
+    }
+    .s1{
+        display: flex;
+        gap: 10px;
+    }
+
+}
