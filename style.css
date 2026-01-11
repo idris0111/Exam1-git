@@ -796,14 +796,14 @@
     box-shadow: 0px 0px 30px 0px #00000017;
 }
 
-.bb1 {
+.bb12 {
     width: 392px;
     height: 379px;
     border-radius: 10px;
     box-shadow: 0px 0px 30px 0px #00000017;
     padding-left: 20px;
 }
-.bb1 p{
+.bb12 p{
     margin-left: 20px;
     line-height: 25px;
 }
@@ -823,8 +823,9 @@
         margin-top: 40px;
         flex-direction: column;
     }
-    .bbs2{
+    .bb12{
         margin: auto;
+        margin-top: 30pxпше ;
     }
 
     .imgg {
