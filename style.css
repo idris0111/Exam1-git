@@ -395,6 +395,13 @@
     margin-top: 80px;
 }
 
+.section12 {
+    max-width: 1200px;
+    margin: auto;
+    line-height: 30px;
+    margin-top: 80px;
+}
+
 .id1 {
     font-size: 36px;
     font-weight: 700;
@@ -452,37 +459,143 @@
     justify-content: center;
     margin-bottom: 20px;
 }
-.video1 p
-{
+
+.video1 p {
     font-size: 20px;
     margin-bottom: 50px;
 }
-.img33{
+
+.img33 {
     display: none;
 }
-.ll2{
+
+.ll2 {
     display: none;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.ak1 {
+    max-width: 1200px;
+    margin: auto;
+    box-shadow: 0px 0px 30px 0px #00000017;
+    margin-top: 20px;
+}
+
+.ak2 {
+    width: 90%;
+    margin: auto;
+    height: 72px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.ak3 {
+    width: 90%;
+    margin: auto;
+    height: 72px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.aa1 {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.lk3 {
+    color: gray;
+    font-size: 16px;
+}
+
+.lk4 {
+    color: #1178B2;
+    font-size: 16px;
+}
+
+.btn11 {
+    width: 377px;
+    height: 70px;
+    border-radius: 10px;
+    background: linear-gradient(276.41deg, #016CA8 -7%, #61B5E4 77.16%);
+    color: white;
+    border: none;
+    font-size: 18px;
+}
+.by{
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 40px;
+}
+
 @media(max-width:600px) {
-    .jj1{
+    .by{
         display: none;
     }
-    .ll2{
+    .lk3{
+        font-size: 12px;
+    }
+    .ak1{
+        text-align: center;
+        margin-top: 40px;
+    }
+    .ak3{
+        height: 70px;
+    }
+    .ak2{
+        height: 140px;
+        display: flex;
+        flex-direction: column;
+        width: 70%;
+        line-height: 30px;
+        align-items: center;
+        justify-content: center;
+    }
+    .lk4{
+        font-size: 12px;
+    }
+    .jj1 {
+        display: none;
+    }
+
+    .ll2 {
         display: block;
     }
-    .video1{
+
+    .video1 {
         height: 240px;
         padding: 20px;
     }
-    .video1 P{
+
+    .video1 P {
         margin-bottom: 20px;
     }
-    .img33{
+
+    .img33 {
         display: block;
     }
-    .img22{
+
+    .img22 {
         display: none;
     }
+
     .section11 {
         text-align: center;
     }
